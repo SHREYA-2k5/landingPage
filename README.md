@@ -1,52 +1,40 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+ # Northstar Studio
 
-## Getting Started
+A modern and responsive design agency landing page built with Next.js and Tailwind CSS.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This project was developed as part of a **Next.js internship task**, focusing on responsive design, clean component structure, and a smooth user experience.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## ✨ Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Responsive design for desktop, tablet, and mobile
+- Modern agency-style landing page
+- Hero section with clear call-to-action
+- Services section
+- Portfolio showcase
+- Contact section with form interaction
+- Reusable React components
+- Optimized fonts using `next/font`
+- Clean and minimal UI
 
-## Learn More
+## 🛠️ Tech Stack
 
-## Northstar Studio
+- **Next.js 16** – React framework
+- **TypeScript** – Type-safe development
+- **Tailwind CSS v4** – Styling and responsive design
+- **React** – Component-based UI
+- **Next Font** – Font optimization
 
-A responsive design agency homepage built for the Next.js internship task. The page uses a small App Router component structure with separate Hero, Services, Portfolio, and Contact sections.
-
-## Stack
-
-- Next.js 16 with the App Router
-- TypeScript
-- Tailwind CSS v4 with custom CSS for the visual system
-- Client-side contact form success state
-
-## Getting Started
-
-Install dependencies and run the development server:
-
-```bash
-npm install
-npm run dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) in your browser.
-
-## Scripts
-
-```bash
-npm run lint
-npm run build
-```
-
-## Project Structure
+## 📁 Project Structure
 
 ```text
-src/app/layout.tsx       Metadata and global document shell
-src/app/page.tsx         Homepage composition
-src/app/globals.css      Responsive layout and visual system
-src/components/Hero.tsx
-src/components/Services.tsx
-src/components/Portfolio.tsx
-src/components/Contact.tsx
-```
+src/
+├── app/
+│   ├── layout.tsx        # Application layout and metadata
+│   ├── page.tsx          # Main homepage
+│   └── globals.css       # Global styles
+│
+└── components/
+    ├── Hero.tsx          # Hero section
+    ├── Services.tsx      # Services section
+    ├── Portfolio.tsx     # Portfolio section
+    └── Contact.tsx       # Contact section
